@@ -4,6 +4,7 @@ import { Cards, Chart } from './components'
 import { fetchData } from './api'
 import Header from './components/Header'
 import News from './components/News'
+import Guidelines from './components/Guidelines'
 
 class App extends React.Component {
   constructor(props) {
@@ -28,7 +29,7 @@ class App extends React.Component {
     const recoveredData = data.recovered;
     const deathsData = data.deaths
     return (
-      <div>
+      <div className="mb-5">
         <div className="container">
           <div>
             <Header lastUpdate={data.lastUpdate} />
@@ -40,6 +41,9 @@ class App extends React.Component {
             <h2 className="headings text-center mt-5 mb-3">COVID-19 Global Cases</h2>
             <Chart />
           </div>
+        </div>
+        <div className="mt-5">
+          <Guidelines />
         </div>
         <div className="d-flex">
           <News />
