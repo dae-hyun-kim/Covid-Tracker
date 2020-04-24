@@ -29,7 +29,7 @@ class App extends React.Component {
     const recoveredData = data.recovered;
     const deathsData = data.deaths
     return (
-      <div>
+      <div className="mb-5">
         <div className="container">
           <div>
             <Header lastUpdate={data.lastUpdate} />
