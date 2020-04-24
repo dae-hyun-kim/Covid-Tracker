@@ -42,11 +42,11 @@ class App extends React.Component {
             <Chart />
           </div>
         </div>
+        <div className="mt-5">
+          <Guidelines />
+        </div>
         <div className="d-flex">
           <News />
-        </div>
-        <div>
-          <Guidelines />
         </div>
       </div>
     )
