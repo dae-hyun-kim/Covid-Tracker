@@ -4,6 +4,7 @@ import { Cards, Chart } from './components'
 import { fetchData } from './api'
 import Header from './components/Header'
 import News from './components/News'
+import Guidelines from './components/Guidelines'
 
 class App extends React.Component {
   constructor(props) {
@@ -43,6 +44,9 @@ class App extends React.Component {
         </div>
         <div className="d-flex">
           <News />
+        </div>
+        <div>
+          <Guidelines />
         </div>
       </div>
     )
