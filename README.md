@@ -15,3 +15,26 @@ Try the application at <a href="https://covid-tracker.danny-dae-kim.com/">https:
 <div class="center-img">
   <img src="./src/assets/images/covid-tracker.gif" alt="covid-tracker app preview">
 </div>
+
+# Development
+### System Requirements
+- npm 6 or higher
+
+### Getting Started
+1. Clone the repository.
+
+  ```shell
+  git clone https://github.com/dae-hyun-kim/covid-tracker
+  cd covid-tracker
+  ```
+
+2. Install all dependencies with NPM.
+  ```shell
+  npm install
+  ```
+
+3. Start the project. After starting, you can view the application by opening http://localhost:3000 in your browser.
+
+  ```shell
+  npm start
+  ```
